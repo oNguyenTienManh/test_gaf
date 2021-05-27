@@ -11,15 +11,16 @@
     "lint": "eslint '*/**/*.{js,jsx}' --ignore-path .eslintignore --fix"
   },
   "dependencies": {
+    "@babel/eslint-parser": "^7.14.3",
     "@material-ui/core": "^4.11.0",
     "axios": "^0.19.0",
     "cookie-parser": "^1.4.5",
     "cross-env": "^7.0.2",
     "express": "^4.17.1",
-    "immer": "^7.0.1",
+    "immer": "^9.0.1",
     "js-cookie": "^2.2.1",
-    "lodash": "^4.17.15",
-    "next": "10.0.3",
+    "lodash": "^4.17.21",
+    "next": "^10.2.3",
     "next-build-id": "^3.0.0",
     "next-i18next": "^4.4.2",
     "next-redux-wrapper": "^4.0.1",
@@ -40,8 +41,7 @@
     "validator": "^13.1.1"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.2.0",
+    "eslint": "^7.27.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
@@ -49,7 +49,7 @@
     "eslint-plugin-react-hooks": "^4.0.4",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.10",
-    "pm2": "^4.4.0",
+    "pm2": "4.5.6",
     "prettier": "^2.0.5"
   },
   "lint-staged": {
