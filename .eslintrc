@@ -1,0 +1,61 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended",
+    "airbnb"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "linebreak-style": "off",
+    "react/jsx-filename-extension": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/forbid-prop-types": "off",
+    "react/button-has-type": "off",
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "object-curly-newline": "off",
+    "react/static-property-placement": "off",
+    "implicit-arrow-linebreak": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/self-closing-comp": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "no-param-reassign": 0,
+    "camelcase": "off",
+    "react/jsx-key": "error",
+    "function-paren-newline": "off",
+    "no-underscore-dangle": "off",
+    "react/jsx-wrap-multilines": "off",
+    "operator-linebreak": "off",
+    "no-duplicate-case": "off",
+    "react/no-danger": "off",
+    "eslint-disable consistent-return": "off"
+  },
+  "plugins": []
+}
