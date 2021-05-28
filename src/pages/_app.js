@@ -1,7 +1,6 @@
 import { Provider } from 'react-redux';
 import PropTypes from 'prop-types';
 import withRedux from 'next-redux-wrapper';
-import { appWithTranslation } from 'i18n';
 import createStore from 'redux/configureStore';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from 'theme';
@@ -38,4 +37,4 @@ MyApp.getInitialProps = async ({ Component, ctx }) => {
   };
 };
 
-export default withRedux(createStore)(appWithTranslation(MyApp));
+export default withRedux(createStore)(MyApp);

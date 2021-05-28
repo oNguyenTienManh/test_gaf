@@ -2,6 +2,7 @@
 const styledWebpack = require('styled-jsx/webpack');
 const nextBuildId = require('next-build-id');
 const publickENV = require('./configs/env');
+const { i18n } = require('./next-i18next.config.js');
 
 module.exports = {
   webpack(config, { defaultLoaders }) {
@@ -45,5 +46,6 @@ module.exports = {
   },
 
   publicRuntimeConfig: publickENV,
+  i18n,
   generateBuildId: () => nextBuildId({ dir: __dirname, describe: true }),
 };
