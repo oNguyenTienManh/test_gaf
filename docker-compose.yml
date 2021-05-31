@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build: .
+    restart: always
+    command: yarn dev
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app:cached
+      - /tmp/node_modules:/app/node_modules
