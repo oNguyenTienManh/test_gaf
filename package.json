@@ -11,7 +11,7 @@
     "lint": "eslint '*/**/*.{js,jsx}' --ignore-path .eslintignore --fix"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.14.3",
+    "@babel/eslint-parser": "^7.14.4",
     "@material-ui/core": "^4.11.0",
     "axios": "^0.19.0",
     "cookie-parser": "^1.4.5",
